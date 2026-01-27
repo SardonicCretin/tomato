@@ -5,7 +5,7 @@
 
 In our previous meeting, we discussed the possibility that images from the testing dataset are simply too different from its contemporaries in the training/validation dataset; thus explaining the abhorrent performance decline when evaluating on unseen test images. Adhering to garbage in, garbage out, the hypothesis is that the model simply cannot learn any features useful for classifying the test images for they do not exist in the training data. If proven true, this would mean that we have been chasing a unicorn the entire time, being an issue of data breadth rather than model depth. 
 
-![[tomato/assets/image.png|700x358]]
+![image](assets/image.png)
 
 ## Training Data too Different from the Test Data
 
