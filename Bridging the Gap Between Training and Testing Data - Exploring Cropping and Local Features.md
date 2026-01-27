@@ -218,8 +218,10 @@ ConvNeXt base (ConvNeXt_8e5LR_0.2DropRate5e-4WeightDecay_cropped_testn0neckcropp
 	
 Convnextv2_384
 >`took too long to train (overnight for 3 epochs)`
+
 >[!IMPORTANT]
->A decent improvement! 
+>A decent improvement!
+
 When combined with cropped inputs that emphasize disease regions, ConvNeXt demonstrates a substantially improved ability to generalize.
 
 ![](./assets/image-25.png)
