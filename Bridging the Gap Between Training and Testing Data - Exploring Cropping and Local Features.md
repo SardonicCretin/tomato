@@ -88,7 +88,9 @@ neck rot removed
 >[!IMPORTANT]
 >As expected, this resulted in a small boost in the testing accuracy.
 ___
-Note: As discussed before, to combat the low class counts some stray online images from IRRI, etc. are added to the training data. It should be stressed that disease images are very scarce. The updated class distribution after removing the neck blast images is shown below. 
+>[!NOTE]
+>As discussed before, to combat the low class counts some stray online images from IRRI, etc. are added to the training data. It should be stressed that disease images are very scarce. The updated class distribution after removing the neck blast images is shown below.
+
 >[!IMPORTANT]
 >All subsequent experiments use this as the testing dataset or its derivative.
 
@@ -110,7 +112,7 @@ baseline
 curated train dataset
 >`best test acc: 0.4200323224067688  best val acc 0.8077803254127502`
 
-Surprisingly, this resulted in both the test and validation accuracies to degrade.
+Surprisingly, this resulted in degradation of both the test and validation accuracies.
 
 | TRAIN  | old  | curated |
 | ------ | ---- | ------- |
