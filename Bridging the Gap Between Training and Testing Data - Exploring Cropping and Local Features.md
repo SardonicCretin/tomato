@@ -200,6 +200,7 @@ cropped train, cropped test
 
 >[!IMPORTANT]
 >Cropping the training data alone results in a modest improvement in testing accuracy
+
 Suggesting that emphasizing discriminative regions helps the model learn more robust disease representations even when evaluated on uncropped images. The largest gain is observed when both training and testing data are cropped, whereby ensuring that disease characteristics remain visually salient at 224 × 224 resolution.
 
 ![](./assets/image-22.png)
