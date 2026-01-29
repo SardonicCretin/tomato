@@ -261,6 +261,7 @@ ConvNeXtFreezeSpatialMixing_8e5LR_0.2DropRate5e-4WeightDecay_cropped_testn0neckc
 	
 ConvNeXtFreezeallconvs_newAug_8e5LR_0.2DropRate5e-4WeightDecay_cropped_testn0neckcropped
 >`best test acc: 0.6730205416679382 best val acc: 0.9496567249298096`
+
 >[!IMPORTANT]
 >and we achieve our new best test acc of 0.7023460268974304 when freezing all convolution layers
 
